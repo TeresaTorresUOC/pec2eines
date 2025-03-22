@@ -3,6 +3,11 @@ import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
+
 document.querySelector('#app').innerHTML = `
   <div>
     <a href="https://vite.dev" target="_blank">
